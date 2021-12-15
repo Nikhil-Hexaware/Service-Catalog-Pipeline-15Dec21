@@ -1,24 +1,24 @@
-name: NAME_OF_THE_PORTFOLIO
+name: SC-Portfolio-15Dec2021
 description: DESCRIPTION_OF_THE_PORTFOLIO
-owner: EMAIL@EXAMPLE.COM
+owner: nikhilp1@hexaware.COM
 products:
 - name: vpc-product
   template: product-vpc.yaml
-  owner: EMAIL@EXAMPLE.COM
+  owner: nikhilp1@hexaware.COM
   description: creates a vpc and all related components
 - name: sample-dynamodb
   template: product-sample-dynamodb.yaml
-  owner: EMAIL@EXAMPLE.COM
+  owner: nikhilp1@hexaware.COM
   description: creates a sample dynamodb table
 accounts:
 - identifier: Sample AWS Account
-  number: 123456789012
+  number: 215428029888
 - identifier: Another
-  number: 123456789013
+  number: 215428029888
 tags:
-- Key: keynam1
-  Value: value1
-- Key: keyname2
-  Value: value2
+- Key: Name
+  Value: SC-Portfolio-15Dec2021
+- Key: Env
+  Value: Dev
 principals:
 - role/Admin

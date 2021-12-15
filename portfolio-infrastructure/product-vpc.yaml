@@ -5,7 +5,7 @@ AWSTemplateFormatVersion: '2010-09-09'
 Description: 'Launches VPC, NATGateways, Endpoints, 4 Subnet Architecture'
 Parameters:
   EnvironmentName:
-    Description: Name of the VPC
+    Description: SC-VPC-15Dec2021
     AllowedPattern: "[a-z0-9]*"
     Type: String
     ConstraintDescription : Must begin with a letter. Lower case letters.Can include numbers.
