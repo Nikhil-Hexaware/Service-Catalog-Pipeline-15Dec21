@@ -1,3 +1,6 @@
+Resources:
+
+Type: AWS::ServiceCatalog::Portfolio
 name: SC-Portfolio
 description: DESCRIPTION_OF_THE_PORTFOLIO
 owner: nikhilp1@hexaware.COM
