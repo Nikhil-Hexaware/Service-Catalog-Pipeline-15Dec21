@@ -12,9 +12,9 @@ Resources:
       - 
         AttributeName: Concert
         AttributeType: S
-      - 
-        AttributeName: TicketSales
-        AttributeType: S
+      #- 
+       # AttributeName: TicketSales
+       # AttributeType: S
       KeySchema:
       -
         AttributeName: ArtistId

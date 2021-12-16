@@ -1,4 +1,4 @@
-name: SC-Portfolio-15Dec2021
+name: SC-Portfolio
 description: DESCRIPTION_OF_THE_PORTFOLIO
 owner: nikhilp1@hexaware.COM
 products:
@@ -17,7 +17,7 @@ accounts:
   number: 215428029888
 tags:
 - Key: Name
-  Value: SC-Portfolio-15Dec2021
+  Value: SC-Portfolio
 - Key: Env
   Value: Dev
 principals:

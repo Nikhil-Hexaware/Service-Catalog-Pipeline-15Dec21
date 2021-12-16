@@ -11,7 +11,7 @@ Resources:
       Handler: sync-catalog.handler
       Runtime: python2.7
       Description: Function to sync service catalog with a configuration file
-      Code: ./
+      Code: ./scripts/
       MemorySize: 128
       Timeout: 300
       Role: !GetAtt LAMBDAROLE.Arn
